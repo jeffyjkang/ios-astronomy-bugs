@@ -22,7 +22,8 @@ struct MarsRover: Codable {
     let maxSol: Int
     let maxDate: Date
     
-    let numberOfPhotos: Int
+//    let numberOfPhotos: Int
+    let totalPhotos: Int
     
     let solDescriptions: [SolDescription]
     
@@ -33,7 +34,8 @@ struct MarsRover: Codable {
         case status
         case maxSol
         case maxDate
-        case numberOfPhotos
+//        case numberOfPhotos
+        case totalPhotos
         case solDescriptions = "photos"
     }
     
